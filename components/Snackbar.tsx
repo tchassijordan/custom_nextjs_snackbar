@@ -14,7 +14,7 @@ export default function Snackbar({
   };
 
   return (
-    <div className="absolute bottom-4 left-4">
+    <div className="absolute left-4 bottom-4 ">
       <div
         className={`${variants[variant]} flex min-w-[300px] items-center truncate whitespace-nowrap rounded-lg py-3 px-3.5 text-xs text-white shadow-md`}
       >
